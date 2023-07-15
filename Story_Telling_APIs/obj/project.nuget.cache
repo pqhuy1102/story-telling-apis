@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "o0DntFhAts3GmSSoWZCvdY5nntWQ38A+nuAgxgyhJB4L8mJHjFtKomLkuA4oJ9hSA/8aqLDr+PMuTv4DFQfB1Q==",
+  "success": true,
+  "projectFilePath": "E:\\StoryTelling\\backend\\Story_Telling_APIs\\Story_Telling_APIs\\Story_Telling_APIs.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Huy Pham\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.5\\microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
+    "C:\\Users\\Huy Pham\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Huy Pham\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\Huy Pham\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\Huy Pham\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\Huy Pham\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\Huy Pham\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
