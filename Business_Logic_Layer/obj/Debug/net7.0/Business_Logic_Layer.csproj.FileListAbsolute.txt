@@ -1,0 +1,15 @@
+E:\StoryTelling\backend\Story_Telling_APIs\Business_Logic_Layer\bin\Debug\net7.0\Business_Logic_Layer.deps.json
+E:\StoryTelling\backend\Story_Telling_APIs\Business_Logic_Layer\bin\Debug\net7.0\Business_Logic_Layer.dll
+E:\StoryTelling\backend\Story_Telling_APIs\Business_Logic_Layer\bin\Debug\net7.0\Business_Logic_Layer.pdb
+E:\StoryTelling\backend\Story_Telling_APIs\Business_Logic_Layer\bin\Debug\net7.0\Data_Access_Layer.dll
+E:\StoryTelling\backend\Story_Telling_APIs\Business_Logic_Layer\bin\Debug\net7.0\Data_Access_Layer.pdb
+E:\StoryTelling\backend\Story_Telling_APIs\Business_Logic_Layer\obj\Debug\net7.0\Business_Logic_Layer.csproj.AssemblyReference.cache
+E:\StoryTelling\backend\Story_Telling_APIs\Business_Logic_Layer\obj\Debug\net7.0\Business_Logic_Layer.GeneratedMSBuildEditorConfig.editorconfig
+E:\StoryTelling\backend\Story_Telling_APIs\Business_Logic_Layer\obj\Debug\net7.0\Business_Logic_Layer.AssemblyInfoInputs.cache
+E:\StoryTelling\backend\Story_Telling_APIs\Business_Logic_Layer\obj\Debug\net7.0\Business_Logic_Layer.AssemblyInfo.cs
+E:\StoryTelling\backend\Story_Telling_APIs\Business_Logic_Layer\obj\Debug\net7.0\Business_Logic_Layer.csproj.CoreCompileInputs.cache
+E:\StoryTelling\backend\Story_Telling_APIs\Business_Logic_Layer\obj\Debug\net7.0\Business_Logic_Layer.csproj.CopyComplete
+E:\StoryTelling\backend\Story_Telling_APIs\Business_Logic_Layer\obj\Debug\net7.0\Business_Logic_Layer.dll
+E:\StoryTelling\backend\Story_Telling_APIs\Business_Logic_Layer\obj\Debug\net7.0\refint\Business_Logic_Layer.dll
+E:\StoryTelling\backend\Story_Telling_APIs\Business_Logic_Layer\obj\Debug\net7.0\Business_Logic_Layer.pdb
+E:\StoryTelling\backend\Story_Telling_APIs\Business_Logic_Layer\obj\Debug\net7.0\ref\Business_Logic_Layer.dll
