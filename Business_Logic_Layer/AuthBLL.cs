@@ -15,7 +15,7 @@ namespace Business_Logic_Layer
         public static UserEntity user = new();
         private IAuthDAL _authDAL;
 
-        public AuthBLL(IConfiguration configuration, IAuthDAL authDAL)
+        public AuthBLL(IAuthDAL authDAL)
         {
             _authDAL = authDAL;
         }

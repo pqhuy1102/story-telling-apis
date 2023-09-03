@@ -110,6 +110,10 @@ namespace Data_Access_Layer
                 await _storyTellingContext.Users.AddAsync(userEntity);
                 await _storyTellingContext.SaveChangesAsync();
             }
+            else
+            {
+                throw new Exception("Username is existed!");
+            }
         }
     }
 }
