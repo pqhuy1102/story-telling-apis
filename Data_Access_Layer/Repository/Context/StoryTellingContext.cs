@@ -23,6 +23,10 @@ namespace Data_Access_Layer.Repository.Context
 
         #region DbSet
         public DbSet<UserEntity> Users { get; set; }
+        public DbSet<StoryEntity> Stories { get; set; }
+        public DbSet<CategoryEntity> Categories { get; set; }
+        public DbSet<ChapterEntity> Chapters { get; set; }
+        public DbSet<CommentEntity> Comments { get; set; }
         #endregion
 
         public static OptionsBuild OptsBuild = new OptionsBuild();

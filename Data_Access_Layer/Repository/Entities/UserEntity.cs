@@ -23,5 +23,7 @@ namespace Data_Access_Layer.Repository.Entities
         [Required]
         public byte[] PasswordSalt { get; set; }
         public UserRole UserRole { get; set; }
+        public virtual ICollection<StoryEntity> Stories { get; set; }
+        public virtual ICollection<CommentEntity> Comments { get; set; }
     }
 }

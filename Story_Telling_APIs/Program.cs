@@ -48,6 +48,8 @@ opts.AddDefaultPolicy(
 
 builder.Services.AddScoped<IAuthBLL, AuthBLL>();
 builder.Services.AddScoped<IAuthDAL, AuthDAL>();
+builder.Services.AddScoped<ICategoryBLL, CategoryBLL>();
+builder.Services.AddScoped<ICategoryDAL, CategoryDAL>();
 builder.Services.AddDbContext<StoryTellingContext>(options =>
     options.UseSqlServer("Server=.; Database=StoryTelling; Integrated Security=True; TrustServerCertificate=True;"));
 
