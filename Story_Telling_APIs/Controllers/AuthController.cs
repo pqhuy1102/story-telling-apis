@@ -21,13 +21,13 @@ namespace Story_Telling_APIs.Controllers
         }
 
         [HttpPost("register")]
-        public async Task<ActionResult<CommonResponseModel>> RegisterUser(UserModel userModel)
+        public async Task<ActionResult<CommonResponseModel<object>>> RegisterUser(UserModel userModel)
         {
             try
             {
                 await _authBLL.RegisterUser(userModel);
 
-                return Ok(new CommonResponseModel
+                return Ok(new CommonResponseModel<object>
                 {
                     status = "Successful!",
                     message = "Register successfully!"
@@ -35,7 +35,7 @@ namespace Story_Telling_APIs.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(new CommonResponseModel
+                return BadRequest(new CommonResponseModel<object>
                 {
                     status = "Failed!",
                     message = ex.Message
@@ -57,10 +57,11 @@ namespace Story_Telling_APIs.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(new CommonResponseModel
+                return BadRequest(new CommonResponseModel<object>
                 {
                     status = "Failed!",
-                    message = ex.Message
+                    message = ex.Message,
+                    Data = null
                 });
             }
         }
