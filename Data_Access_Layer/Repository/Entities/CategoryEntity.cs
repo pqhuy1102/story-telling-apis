@@ -16,6 +16,6 @@ namespace Data_Access_Layer.Repository.Entities
         [Required]
         [MaxLength(100)]
         public string CategoryName { get; set; }
-        public virtual ICollection<StoryEntity> Stories { get; set; }
+        public virtual ICollection<StoryEntity>? Stories { get; set; }
     }
 }

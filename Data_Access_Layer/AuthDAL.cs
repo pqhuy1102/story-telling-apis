@@ -83,6 +83,7 @@ namespace Data_Access_Layer
 
             List<Claim> claims = new()
             {
+                new Claim(ClaimTypes.PrimarySid, user.UserId.ToString()),
                 new Claim(ClaimTypes.Name, user.UserName),
                 new Claim(ClaimTypes.Role, role),
             };
