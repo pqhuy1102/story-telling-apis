@@ -70,8 +70,9 @@ namespace Story_Telling_APIs.Controllers
         public ActionResult<object> GetUserProfile()
         {
             var username = User?.Identity?.Name;
+            var userId = User?.FindFirstValue(ClaimTypes.PrimarySid);
             var userrole = User?.FindFirstValue(ClaimTypes.Role);
-            return Ok(new { username, userrole });
+            return Ok(new { userId, username, userrole });
         }
 
 
